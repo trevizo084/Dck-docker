@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: rm -rf node_modules package-lock.json && npm install
 
-      # Ejecutar pruebas con Jest
+      # Ejecutar pruebas con Jest PUREBA
       - name: Run tests
         run: ./node_modules/.bin/jest --detectOpenHandles --coverage
         env:
