@@ -1,5 +1,4 @@
 name: Build and Push Docker Image
-
 on:
   push:
     branches:
@@ -30,7 +29,7 @@ jobs:
           GOOGLE_CLIENT_ID: testid
           GOOGLE_CLIENT_SECRET: testsecret
 
-      # Calcular las metricas
+      # Calcular las metricas jjj
       - name: Upload coverage report
         uses: actions/upload-artifact@v4
         with:
